@@ -1,12 +1,9 @@
-Installing mongoDB on a MAC
+Installing MongoDB on a MAC
 ================
 
-A simple guide to install mongoDB on a MAC.
-
-Based on [MongoDB Tutorial | Installing MongoDB On A MAC - Part 1](https://www.youtube.com/watch?v=-GE2DpwfbW0)
+A simple guide to install MongoDB on a MAC. Based on [MongoDB Tutorial | Installing MongoDB On A MAC - Part 1](https://www.youtube.com/watch?v=-GE2DpwfbW0)
 
 ##### 1. Download mongoDB
-
 [MongoDB Download Web Page](https://www.mongodb.org/downloads)
 
 ##### 2. Extract the files from the downloaded archive
@@ -35,7 +32,6 @@ mkdir /Users/charz/data/db
 ```
 
 ##### 5. Put the binaries in the path
-
 ```
 cd $HOME (just to make sure you are in the user directory folder - /Users/charz)
 echo “export PATH=$PATH:/Users/charz/mongodb/bin” >.bash_profile
@@ -46,11 +42,9 @@ ls -la (the .bash_profile file should appear)
 cat .bash_profile (the mongodb/bin folder should appear)
 ```
 Exit the terminal app
-
 Reopen the terminal app
 
 ##### 6. Create a mongod.conf file
-
 My mongod.conf file
 ```
 # mongod.conf
@@ -98,4 +92,4 @@ db.test.find() (the object just created should appear)
 ```
 "mongo" to open the mongodb client
 
-* New contributions and/or corrections. Welcome!
+* New contributions and/or corrections are very WELCOME!
