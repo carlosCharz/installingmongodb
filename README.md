@@ -41,8 +41,7 @@ To make sure it was created correctly:
 ls -la (the .bash_profile file should appear)
 cat .bash_profile (the mongodb/bin folder should appear)
 ```
-Exit the terminal app
-Reopen the terminal app
+Exit the terminal app and reopen it
 
 ##### 6. Create a mongod.conf file
 My mongod.conf file
